@@ -1,0 +1,77 @@
+.signin{
+
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+ 
+
+   
+    img{
+
+        width: 120px;
+        height: 40px;
+        margin: 10px 0;
+    }
+
+    &__terms{
+
+       padding: 10px 0;
+        
+    }
+
+    &__container{
+
+        display: flex;
+        flex-flow: column;
+        width: 400px;
+
+    }
+
+
+    &__createaccount{
+
+        background-color: rgb(224, 216, 216);
+        text-align: center;
+        padding: 5px 0;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+
+    &__form{
+
+        display: flex;
+        flex-flow: column;
+        background-color: #fff;
+        padding: 15px 25px;
+        
+
+        h1{
+            margin-bottom: 10px;
+        }
+        >*{
+            margin: 5px;
+        }
+
+        input{
+            
+            height: 28px;
+            border: 1.5px solid #000;
+
+            &:focus{
+                outline: none;
+            }
+        }
+
+
+     
+
+
+    }
+
+
+
+
+
+
+}

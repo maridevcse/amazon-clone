@@ -1,0 +1,26 @@
+
+  button {
+    
+    background-color: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+
+
+  }
+
+    button:focus {
+      outline: none;
+    }
+
+Link{
+  color: #fff;
+}
+
+a{
+  color: #fff;
+}

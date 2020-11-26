@@ -1,0 +1,48 @@
+.subtotal{
+
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+   
+    
+
+    >*{
+        margin: 5px;
+    }
+ 
+
+
+    &__gift{
+
+      display: flex;
+      align-items: center;
+      
+      input{
+          margin-right: 5px;
+      }
+
+    }
+
+   
+
+    button{
+
+        background-color: #f0c14b;
+        border: 1px solid;
+        margin-top: 10px;
+        border-color: #a88734 #9c7e31 #846a29;
+        color: #111;
+        padding: 5px;
+        cursor: pointer;
+    
+        &:focus {
+          outline: none;
+        }
+
+    }
+
+}

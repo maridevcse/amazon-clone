@@ -1,0 +1,44 @@
+.checkout{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    // align-items: center;
+    background-color: #f3f3f3;
+
+    &__left{
+
+        flex-basis: 70%;
+
+        h2{
+            padding: 10px;
+            background-color: #fff;
+        }
+
+
+        img{
+
+            height: 180px;
+            width: 100%;
+         
+            
+        }
+
+
+
+    }
+
+
+    &__right{
+
+     
+    //    text-align: center;
+       flex-grow: 1;
+       
+    }
+
+
+    
+
+
+}
